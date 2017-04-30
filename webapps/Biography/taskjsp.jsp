@@ -2,7 +2,32 @@
 <html>
     <head>
         <title>testing</title>
-        <link rel="stylesheet" type="text/css" href="taskcss.css">
+        <style>
+        div.container {
+            width: 100%;
+            border: 1px solid gray;
+            background-color: #FFF8D0;
+        }
+
+        header, footer {
+            padding: 1em;
+            color: white;
+            background-color: #FFA070;
+            clear: left;
+            text-align: center;
+        }
+
+        form {
+            padding: 1em;
+            overflow: hidden;
+            text-align: center;
+            font-family : cursive;
+        }
+
+        h3 {
+            color: #F08080;
+        }
+        </style>
     </head>
     <body>
       <div class="container">
