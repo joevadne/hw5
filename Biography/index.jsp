@@ -40,22 +40,24 @@
   		<h3>Birthday:</h3> <input type="date" name="birthday" required >
       <h3>Gender:</h3> <input type="radio" name="gender" value="Male" required >Male
   				    <input type="radio" name="gender" value="Female" required>Female
-  		<h3>Hobby:</h3> <input type="checkbox" name="hobby" value="Reading">Reading
-            <input type="checkbox" name="hobby" value="Playing Games">Playing games
+  		<h3>Hobby:</h3> <input type="checkbox" name="hobby" value="Playing Piano">Reading
+            <input type="checkbox" name="hobby" value="Traveling">Playing games
             <input type="checkbox" name="hobby" value="Watching Movie">Watching movie
-            <input type="checkbox" name="hobby" value="Singing">Singing
-      <h3>Favorite Drama:</h3> <SELECT name=korea size=4 Multiple>
+            <input type="checkbox" name="hobby" value="Reading Novel">Singing
+      <h3>Favorite Drama:</h3> <SELECT name=korea size=5 Multiple>
+        <OPTION value = "A Little Thing Called Love" >Thai</OPTION>
         <OPTION value = "Strong Woman Do Bong Soon" selected>Korean</OPTION>
+        <OPTION value = "13 Reasons Why" >Western</OPTION>
         <OPTION value = "Love O2O" >Chinese</OPTION>
-        <OPTION value = "13 Reasons Why" selected >Western</OPTION>
-        <OPTION value = "Hanazakarino" >Japanese</OPTION>
+        <OPTION value = "Hanazakarino" selected >Japanese</OPTION>
+
       </SELECT>
       <h3>Favorite Food :</h3>  <SELECT name="food" size=1>
 	       <OPTION value="American Breakfast" selected>Breakfast</OPTION>
 	       <OPTION value="Tiramisu">Dessert</OPTION>
 	       <OPTION value="Caesar Salad">Salad</OPTION>
        </SELECT>
-      <h3>Comment:</h3> <textarea  name="comment" cols="30" rows="5" required></textarea><br><br>
+      <h3>Comment:</h3> <textarea  name="comment" cols="25" rows="10" required></textarea><br><br>
   		<input type="submit" value="Submit" >
   		<input type="reset" value="Reset">
 
